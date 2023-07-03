@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body><center><div class="j"><table>
+    <tr>
+        <td colspan="4"><  id="result" ></textarea></td>
+        
+        
+    </tr>
+    <tr>
+        <td><input type="button" value="C" id="a" onclick="clear()"></td>
+        <td><input type="button" value="B" id="a" onclick="balance()"></td>
+        <td><input type="button" value="/" id="a" onclick="display('/')"></td>
+        <td><input type="button" value="*" id="a" onclick="display('*')"></td>
+        
+   </tr>
+   <tr>
+    <td><input type="button" value="7" id="a" onclick="display(7)"></td>
+    <td><input type="button" value="8" id="a" onclick="display(8)"></td>
+    <td><input type="button" value="9" id="a" onclick="display(9)"></td>
+    <td><input type="button" value="-" id="a" onclick="display('-')"></td>
+
+   </tr>
+   <tr>
+    <td><input type="button" value="4" id="a" onclick="display(4)"></td>
+    <td><input type="button" value="5" id="a" onclick="display(5)"></td>
+    <td><input type="button" value="6" id="a" onclick="display(6)"></td>
+    <td><input type="button" value="+" id="a" onclick="display('+')"></td>
+   </tr>
+   <tr>
+   
+    <td><input type="button" value="1" id="a" onclick="display(1)"></td>
+    <td><input type="button" value="2" id="a" onclick="display(2)"></td>
+    <td><input type="button" value="3" id="a" onclick="display(3)"></td>
+    <td rowspan="2"><input type="button" value="=" id="b" onclick="operation()"></td>
+   </tr>
+
+   <tr>
+    <td colspan="2"><input type="button" value="0" id="c" onclick="display(0)"></td>
+    <td><input type="button" value="." id="a" onclick="display('.')"></td>
+</tr>
+
+</table></div></center>
+    
+       
+
+    
+<script src="calculator.js"></script></body>
+</html>

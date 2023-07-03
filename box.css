@@ -1,0 +1,24 @@
+.j{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+}
+.k{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    position: relative;
+    left: 180px;
+    bottom: 140px;
+}
+.m{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+    border: 10px solid black;
+    position: relative;
+    left: 370px;
+    bottom: 280px;
+}

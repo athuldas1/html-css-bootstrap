@@ -1,0 +1,48 @@
+h1{
+    background-color: rgb(225, 244, 60);
+    box-shadow: 100px;
+    border-color: rgb(21, 195, 73);
+    font-size: 50px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(226, 140, 101);
+}
+h2{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;}
+    a{
+        background-color: rgb(248, 222, 190);
+        font-style: italic;
+    }
+    .ad{
+        background-color: rgb(241, 245, 221);
+    }
+    .aq{
+        position: relative;
+        left: 400px;
+        bottom: 380px;
+
+    }
+    .we{
+        position: relative;
+        left: 800px;
+        bottom: 760px;
+    }
+    .rt{
+        position: relative;
+        left: 1200px;
+        bottom:1140px ;
+
+ }
+ .sd{
+    position: relative;
+    left: 1600px;
+    bottom: 1523px;
+ }
+.jk{
+    scroll-behavior: auto;
+    overflow: auto;
+    scrollbar-3dlight-color: black;
+
+}

@@ -1,0 +1,16 @@
+h1{
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline solid red;
+    border: 50px solid gold;
+}
+p{
+    color: aliceblue;
+}
+.fg{
+    color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 50px;
+}
